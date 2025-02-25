@@ -1,10 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>João Bandeira - Curriculum Vitae</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        @page {
+            size: A4;
+            margin: 13mm 25mm 13mm 25mm;
+        }
+
+        html {
+            width: 210mm;
+            height: 297mm;
+
+            /*font-family: sans-serif;*/
+            line-height: 1.5;
+            font-size: 14px;
+
+            --primary-color: #007bff;
+            --neutral-100: #f8f8f8;
+            --neutral-200: #e9e9e9;
+            --neutral-300: #dedede;
+            --neutral-400: #cecece;
+            --neutral-500: #adadad;
+            --neutral-600: #666666;
+            --neutral-900: #343434;
+            --text-neutral-light: var(--neutral-600);
+        }
+
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: var(--neutral-600);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            color: var(--neutral-900);
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-row {
+            flex-direction: row;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .gap-2 {
+            gap: 8px;
+        }
+
+        .gap-4 {
+            gap: 16px;
+        }
+
+        .gap-6 {
+            gap: 24px;
+        }
+
+        .gap-8 {
+            gap: 32px;
+        }
+
+        .gap-16 {
+            gap: 64px;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .w-1\/4 {
+            width: 25%;
+        }
+
+        .w-2\/3 {
+            width: 66.6666666667%;
+        }
+
+        .w-1\/3 {
+            width: 33.3333333333%;
+        }
+
+        .w-1\/4 {
+            width: 25%;
+        }
+
+        .w-3\/4 {
+            width: 75%;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .mt-8 {
+            margin-top: 32px;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-primary {
+            color: var(--primary-color);
+        }
+
+        .text-neutral-900 {
+            color: var(--neutral-900);
+        }
+
+        .text-neutral-light {
+            color: var(--text-neutral-light);
+        }
+
+        .font-serif {
+            font-family: "Merriweather", serif;
+        }
+
+        .font-sans-serif {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .font-italic {
+            font-style: italic;
+        }
+
+        .font-normal {
+            font-weight: normal;
+        }
+
+        .font-md {
+            font-size: 1rem;
+        }
+
+        .font-sm {
+            font-size: 0.875rem;
+        }
+
+        .font-lg {
+            font-size: 1.125rem;
+        }
+
+    </style>
 </head>
-<body>
-$END$
+<body class="flex flex-col gap-8 text-neutral-900 font-serif">
+<header>
+    <div class="flex flex-col gap-4 w-2/3 text-center mx-auto">
+        <h1>
+            João Bandeira
+        </h1>
+        <div class="flex flex-row gap-16">
+        </div>
+    </div>
+    <div class="flex flex-row gap-8 justify-center">
+        <div>Porto, Portugal</div>
+        <!-- <div class="font-bold">+351 91x xxx xxx</div> -->
+        <!--<div class="font-bold">
+            <a href="mailto:xxxxxx@gmail.com">xxxxxx@gmail.com</a>
+        </div>-->
+        <div>
+            <a href="https://www.linkedin.com/in/joaonorimbandeira/" target="_blank" class=" flex flex-row gap-2 items-center">
+                <svg fill="#000000" width="14px" height="14px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"></path>
+                </svg>
+                <span>joaonorimbandeira</span>
+            </a>
+        </div>
+    </div>
+<hr class="mt-8"/>
+</header>
+<div class="flex flex-col gap-4">
+    <div>
+        Software engineer and product enthusiast. I like to create flexible software that solves
+        customers’ problems, and that stands the test of time. I value consistency and excellence.
+        Despite being a builder by nature, I’ve honed my ability to manage and mentor teams. A rare
+        case of a mostly back-end developer that actually loves CSS.
+    </div>
+</div>
+<div class="flex flex-row gap-16 text-neutral-light">
+    <!-- Left Column -->
+    <div class="w-3/4 flex flex-col gap-8">
+        <!-- Experience -->
+        <div class="flex flex-col gap-4">
+            <div class="text-primary uppercase font-bold font-sans-serif">Experience</div>
+            <div class="flex flex-col gap-6">
+                <!-- Company Experience Template -->
+                <!--
+                    <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-neutral-900">Company Name, <span class="font-normal">Porto, Portugal</span></h3>
+                            <div>
+                                Company description. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <div class="font-italic font-normal font-lg text-neutral-900">Position</div>
+                            <div class="uppercase font-sm font-sans-serif">Month 20xx - Month 20xx</div>
+                            <div>
+                                Position description
+                            </div>
+                        </div>
+                    </div>
+                -->
+                <!-- END: Company Experience Template -->
+                <!-- PlatformE -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-neutral-900">PlatformE, <span class="font-normal">Porto, Portugal</span></h3>
+                        <div>
+                            PlatformE is a product company operating in the fashion industry,
+                            developing software for the brands and manufacturers ecosystem, in the
+                            B2B and B2B2C space. The company's product involves tools for inventory
+                            management, catalogues, production planning, and communication, but
+                            also visual assets (2D and 3D) management and visualisation.
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="font-italic font-normal font-lg text-neutral-900">Head of Architecture</div>
+                        <div class="uppercase font-sm font-sans-serif">September 2023 - Present</div>
+                        <div>
+                            As Head of Architecture, I lead the design and implementation of
+                            PlatformE’s products, collaborating closely with the product and design
+                            team to shape and refine their vision.
+                        </div>
+                        <div>
+                            At PlatformE, I also worked directly with the development team, not
+                            only on a mentoring capacity, but also on a hands-on role, balancing
+                            high-level architecture with active technical contributions. On the
+                            other hand, I've collaborated closely with the CTO, providing help in
+                            strategic decisions and the company's roadmap, as well as in team
+                            management.
+                        </div>
+                    </div>
+                </div>
+                <!-- END: PlatformE -->
+                <!-- Teya -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-neutral-900">Teya, <span class="font-normal">Porto, Portugal</span></h3>
+                        <div>
+                            Teya develops solutions to help small and medium businesses succeed,
+                            and is mostly focused on financial services (with acquiring as its
+                            core business).
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="font-italic font-normal font-lg text-neutral-900">Tech Lead</div>
+                        <div class="uppercase font-sm font-sans-serif">February 2022 - July 2023</div>
+                        <div>
+                            Helping to develop Teya's payments gateway, one of the core components
+                            of the company's acquiring product.
+                        </div>
+                        <div>
+                            My role focused on three pillars: defining architecture and providing
+                            technical mentorship to the engineering teams, delivering product
+                            specifications while collaborating with diverse stakeholders, and
+                            supporting Engineering Managers with team coordination and
+                            prioritisation.
+                            This position required a blend of technical leadership,
+                            cross-functional communication, and team management, to deliver
+                            scalable, high-quality solutions.
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Teya -->
+                <!-- Switch -->
+                <div class="flex flex-col gap-4 text-neutral-light">
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-neutral-900">Switch, <span class="font-normal">Porto, Portugal</span></h3>
+                        <div>
+                            Switch was a fintech company whose product powered the payments
+                            infrastructure of merchants, PSPs, and acquirers, in the online and
+                            card-present world. Joining as the second hire, I was part of the "from
+                            zero to hero" journey. By 2022, we were processing half a million daily
+                            transactions.
+                        </div>
+                        <div>
+                            Switch was acquired by Teya in 2021, and was merged with the parent
+                            company in 2022.
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="font-italic font-normal font-lg text-neutral-900">Head of Product</div>
+                        <div class="uppercase font-sm font-sans-serif">April 2021 - January 2022</div>
+                        <div>
+                            As the first member of Switch’s Product department, I led the product
+                            lifecycle across all phases: requirements gathering, scope definition,
+                            specification writing, and supporting development, testing, and
+                            delivery. I worked closely with every company department (sales, PMO,
+                            customer success, etc.)  to prioritise the roadmap, aligning client
+                            needs and internal feedback with long-term strategic goals.
+                            Additionally, I started establishing a team of Product Managers
+                            tailored to the company’s vertical team structure, ensuring smooth
+                            operations and consistent delivery.
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="font-italic font-normal font-lg text-neutral-900">Lead Software Engineer</div>
+                        <div class="uppercase font-sm font-sans-serif">March 2019 - March 2021</div>
+                        <div>
+                            This role expanded on my responsibilities as a Software Engineer, with
+                            added leadership duties in platform architecture and squad management.
+                            Alongside active development, I guided architectural decisions, coordinated
+                            workload distribution, and ensured timely feature delivery. My work
+                            emphasised balancing technical excellence with team leadership and project
+                            execution.
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="font-italic font-normal font-lg text-neutral-900">Software Engineer</div>
+                        <div class="uppercase font-sm font-sans-serif">September 2017 - February 2019</div>
+                        <div>
+                            Joining Switch at an early stage allowed me to contribute to the inception
+                            and development of core microservices forming the platform’s foundation.
+                            I worked in a full-stack capacity, handling:
+                        </div>
+                        <ul>
+                            <li>
+                                Development of APIs for payment processing, risk analysis, and
+                                analytics;
+                            </li>
+                            <li>
+                                Integrations with multiple payment providers;
+                            </li>
+                            <li>
+                                Database modelling, performance optimization, and indexing
+                                (PostgreSQL and MongoDB);
+                            </li>
+                            <li>
+                                Design and implementation of an authorization system for external
+                                clients and inter-service usage;
+                            </li>
+                            <li>
+                                Creation of dynamic UIs and tools using React and angularjs.
+                            </li>
+                        </ul>
+                        <div>
+                            This role provided invaluable experience in software engineering,
+                            architecture, and a product-oriented approach to development during the
+                            company’s formative years.
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Switch -->
+            </div>
+        </div>
+        <!-- END: Experience -->
+        <!-- Education -->
+        <div class="flex flex-col gap-4">
+            <div class="text-primary uppercase font-bold font-sans-serif">Education</div>
+            <div class="flex flex-col gap-6">
+               <!-- FEUP -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-neutral-900">FEUP, <span class="font-normal">Porto, Portugal</span></h3>
+                        <div>
+                            Faculty of Engineering of the University of Porto.
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="font-italic font-normal font-lg text-neutral-900">Masters degree in Informatics and Computer Engineering</div>
+                        <div class="uppercase font-sm font-sans-serif">September 2012 - July 2017</div>
+                        <div>
+                            Bachelors with integrated masters degree. Final grade of 17 out of 20.
+                        </div>
+                    </div>
+                </div>
+                <!-- END: FEUP -->
+            </div>
+        </div>
+        <!-- END: Education -->
+    </div>
+    <!-- END: Left Column -->
+    <!-- Right Column -->
+    <div class="w-1/4 flex flex-col gap-8">
+        <!-- Skills -->
+        <div class="flex flex-col gap-4">
+            <div class="text-primary uppercase font-bold font-sans-serif">Skills</div>
+            <div class="flex flex-col gap-4">
+                <div>Python, Django, HTMX, Javascript, node.js</div>
+                <div>React.js, SASS, Tailwind.css</div>
+                <div>PostgreSQL, MongoDB, Redis, Elasticsearch</div>
+                <div>Database modelling, software architecture, standards definition</div>
+                <div>Product specification, team management and mentoring</div>
+            </div>
+        </div>
+        <!-- END: Skills -->
+        <!-- Languages -->
+        <div class="flex flex-col gap-4">
+            <div class="text-primary uppercase font-bold font-sans-serif">Languages</div>
+            <div class="flex flex-col gap-4">
+                <div class="">English (professional fluency)</div>
+                <div class="">Portuguese (native)</div>
+            </div>
+        </div>
+        <!-- END: Languages -->
+    </div>
+    <!-- END: Right Column -->
+</div>
 </body>
 </html>
